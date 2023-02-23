@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/*NAVBAR HEADER*/
+.header{
+    display: flex;
+    padding: 20px 0px 20px 100px;
+    background-color: #1f2937;
+}
+
+#title{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.list{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header a:hover{
+    color: aqua;
+}
+
+.header a{
+    list-style-type: none;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*HERO*/
+
+.hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#chihiro-haku{
+    width: 700px;
+}
+
+.hero1-description{
+    padding: 100px;
+    text-align: left;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+}
+
+/*CONTENT*/
+
+
+.content img{
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 50%;
+    
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.content img:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.content-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-info p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+/*QUOTE*/
+
+.quote{
+    background-color:#a6a6a8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 233px;
+}
+
+#text2{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+}
+
+#sign{
+    font-size: 36px;
+    text-align: right;
+}
+
+/*SIGNUP*/
+
+.signup{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    margin: 50px 600px;
+    color: white;
+}
+
+.signup-1{
+    text-align: left;
+    padding: 10px 50px;
+}
+
+.signup-2{
+    margin-top: 50px;
+}
+
+.signup-2 button{
+    border-radius: 8px;
+    border-color: white;
+    font-size: 15px;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #1f2937;;
+    color: white;
+}
+
+
+
+
